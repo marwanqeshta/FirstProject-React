@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/FirstProject-React/static/css/main.ba7cd835.css",
+    "main.js": "/FirstProject-React/static/js/main.0d6291a8.js",
+    "static/media/secondayBG.gif": "/FirstProject-React/static/media/secondayBG.494212487ca77f63180b.gif",
+    "static/media/Opening 1.jpg": "/FirstProject-React/static/media/Opening 1.787ba47f8b82ee2de7a8.jpg",
+    "static/media/Rectangle 34.png": "/FirstProject-React/static/media/Rectangle 34.57f9238628b0773e5241.png",
+    "static/media/Meat.png": "/FirstProject-React/static/media/Meat.249cfde5895c509072fa.png",
+    "static/media/vegetable.png": "/FirstProject-React/static/media/vegetable.f28bfe71e7c1eb2e789d.png",
+    "static/media/cake.png": "/FirstProject-React/static/media/cake.0406f57abd434d2f7a7d.png",
+    "static/media/food.png": "/FirstProject-React/static/media/food.4f08294be05b178052e0.png",
+    "static/media/Component 4.png": "/FirstProject-React/static/media/Component 4.48c7f3441fa347221bce.png",
+    "static/media/girl.png": "/FirstProject-React/static/media/girl.4b925215ffbed51492b0.png",
+    "static/media/man.png": "/FirstProject-React/static/media/man.cc0abbac3d17018b6735.png",
+    "static/media/11.png": "/FirstProject-React/static/media/11.16c9694ef8f0721233db.png",
+    "static/media/6.png": "/FirstProject-React/static/media/6.16c9694ef8f0721233db.png",
+    "static/media/12.png": "/FirstProject-React/static/media/12.61dbb22d34a957185a0e.png",
+    "static/media/3.png": "/FirstProject-React/static/media/3.61dbb22d34a957185a0e.png",
+    "static/media/1.png": "/FirstProject-React/static/media/1.34b1aea697d873ae3eab.png",
+    "static/media/10.png": "/FirstProject-React/static/media/10.34b1aea697d873ae3eab.png",
+    "static/media/5.png": "/FirstProject-React/static/media/5.b60e551656b06a179974.png",
+    "static/media/7.png": "/FirstProject-React/static/media/7.b60e551656b06a179974.png",
+    "static/media/4.png": "/FirstProject-React/static/media/4.6f5c4211adaff586cee5.png",
+    "static/media/8.png": "/FirstProject-React/static/media/8.6f5c4211adaff586cee5.png",
+    "index.html": "/FirstProject-React/index.html",
+    "main.ba7cd835.css.map": "/FirstProject-React/static/css/main.ba7cd835.css.map",
+    "main.0d6291a8.js.map": "/FirstProject-React/static/js/main.0d6291a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba7cd835.css",
+    "static/js/main.0d6291a8.js"
+  ]
+}
