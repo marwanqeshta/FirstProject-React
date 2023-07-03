@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./img/secondayBG.gif');
+    height: auto;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.bake-ground{
+    width: 100%;
+    height: 120vh;
+    background-image: url('./img/Opening\ 1.jpg');
+    position: absolute;
+    
+}
+
+.main-section{
+    height: 120vh;
+    width: 100%;
+    background-color:#1014187f ;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.HomeSection{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 131px;
+    
+}
+
+/* start header */
+header{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    background-color: black; 
+    padding-right: 80px;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    padding-left: 3px;
+    padding-top: 8px;
+}
+
+li img{
+    padding-top: 15px;
+    padding-left: 8px;
+}
+
+a{
+    color: #FFFFCC;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 20px 20px;
+    display: inline-block;
+}
+.second-div {
+    color: #FFFFFF;
+    background-color: #A08040;
+    display: flex; 
+    align-items: center;
+    padding: 0 35px;
+}
+.second-div p{
+    color: #FFFFFF;
+    background-color: #A08040;  
+    padding: 0 10px;
+}
+.lines{
+    width: 35px;
+    height: 2px;
+    border-bottom:2px solid #FFFFFF;
+}
+
+
+/* end header */
+
+
+/* start section cover*/
+.cover{
+    
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+
+    
+}
+.cover h2{
+    font-size: 40px; 
+    
+}
+.cover p{
+    font-size: 18px; 
+   padding: 15px 0;
+   margin-bottom: 15px;
+}
+ button{
+    border: 2px solid rgba(255, 252, 204, 1);
+    padding: 10px 35px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+
+/* end section cover*/
+
+.container1{
+    width: 75%;
+    margin: auto;
+}
+.container2{
+    width: 60%;
+    margin: auto;
+}
+
+/* start section About*/
+.About-section{
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    padding-top: 70px;
+    margin-bottom: 165px; 
+}
+
+.contact{
+    padding-right: 90px;
+}
+.contact h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px ;
+    color: rgba(255, 206, 109, 1);
+    padding-bottom: 5px;
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255, 255, 252, 1);
+
+}
+.contact p{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 252, 1);
+    padding-right: 220px;
+    padding-top: 44px ;
+    padding-bottom: 44px;
+    
+}
+
+.contact-img{
+  background-size: cover;
+  background-position: center;
+}
+
+/* end section About*/
+
+
+/* Start section Special*/
+.Title{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.Title h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #A08040;
+    margin-bottom: 5px;
+}
+.Title h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #A08040;
+    margin-bottom: 5px;
+}
+.Title p{
+    font-size: 30px;
+    color: #FFFFFC;
+    font-weight: bold;   
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 252, 1);
+}
+
+.card-1{
+    width: 384px;
+    height: 455px;
+    background-color: rgba(160, 128, 64, 0.3);
+    text-align: center;
+    padding-top: 80px;
+    margin: 50px;
+    margin-bottom: 100px;
+    border: 1px dashed #A08040;
+    
+}
+
+.card-1 h3{
+    padding: 13px 0;
+}
+
+.card-1 p{
+   font-size: 14px;
+   text-align: left;
+   padding: 0 50px;
+   word-spacing: 12px;
+   line-height: 20px;
+   width: 360px;
+}
+/* end section Special*/
+
+/* start section Menu*/
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.main-menu{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.paragraph{
+   padding-left: 10px;
+}
+.paragraph h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.paragraph p{
+    font-size: 14px;
+}
+.line1 , .line2   {
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.line3  ,.line7{
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.line4 {
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 65px;
+    margin-right: 10px;
+}
+.line5 {
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.line6{
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 38px;
+    margin-right: 10px;
+}
+.line8{
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 66px;
+    margin-right: 10px;
+}
+.line9{
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 25.5px;
+    margin-right: 10px;
+}
+.line10{
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 34px;
+    margin-right: 10px;
+}
+.line11{
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 49px;
+    margin-right: 10px;
+}
+.line12{
+    width: 123px;
+    height: 2px;
+    border-bottom:2px solid rgba(255, 206, 109, 1);
+    margin-left: 29px;
+    margin-right: 10px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 206, 109, 1);
+}
+/* end section Menu*/
+
+/* start section Discount*/
+.Discount{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-top:100px;
+    background-color: rgba(16, 20, 24, 0.7);
+    height: 325px;
+    width: 100%;
+    position: absolute;
+}
+.Discount .img1{
+    position: relative;
+    top: -45px;
+    transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+}
+.Discount .img2{
+    position: relative;
+    top: -45px;
+    transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+}
+
+.Discount .content{
+    text-align: center;
+    margin: auto 0;
+   
+}
+.Discount p{
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.Discount h3{
+    margin: 30px 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #A08040;
+}
+/* end section Discount*/
+
+/* start section cooking*/
+.Cooking{
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    padding-bottom: 40px;
+    margin-top: 500px;
+   
+}
+
+.contact{
+    padding-right: 90px;
+}
+.contact h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px ;
+    font-style: italic;
+    color: rgba(255, 206, 109, 1);
+    padding-bottom: 5px;
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255, 255, 252, 1);
+
+}
+.contact p{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 252, 1);
+    padding-right: 220px;
+    padding-top: 44px ;
+    padding-bottom: 44px;
+    
+}
+
+.contact-img{
+  background-size: cover;
+  background-position: center;
+}
+/* end section cooking*/
+
+/* start section chef*/
+.main-div{
+    height: 192px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(16, 20, 24, 0.7);
+    margin: 50px 0;
+    padding: 0 110px;
+}
+
+.secondary-div{
+    display: flex;
+    align-items: center;
+}
+.prices-div{
+    padding-left: 20px;
+    text-align: center;
+}
+.prices-div h2{
+    font-size: 45px;
+    color: rgba(255, 206, 109, 1);
+}
+.prices-div p{
+    font-size: 16px;
+}
+/* end section chef*/
+
+/* start section reviews*/
+.comments{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.comment-1{
+    width: 900px;
+    height:370px ;
+    color: #FFFFFF;
+    background-color: rgba(16, 20, 24, 0.7);
+    padding: 0 50px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    transform: translateX(-270px);
+    -webkit-transform: translateX(-270px);
+    -moz-transform: translateX(-270px);
+    -ms-transform: translateX(-270px);
+    -o-transform: translateX(-270px);
+}
+.comment-2{
+    width: 900px;
+    height:370px ;
+    color: #FFFFFF;
+    background-color: rgba(16, 20, 24, 0.7);
+    padding: 0 50px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.comment-3{
+    width: 900px;
+    height:370px ;
+    color: #FFFFFF;
+    background-color: rgba(16, 20, 24, 0.7);
+    padding: 0 50px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    transform: translateX(270px);
+    -webkit-transform: translateX(270px);
+    -moz-transform: translateX(270px);
+    -ms-transform: translateX(270px);
+    -o-transform: translateX(270px);
+}
+.section-comment1{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+.section-comment2{
+    padding-left: 40px;
+}
+.section-comment2 span{
+    display: block;
+}
+.comments p{
+    padding-top: 30px;
+    padding-right: 45px;
+    font-size: 14px;
+    color: #FFFFFC;
+    word-spacing: 5px;
+}
+/* end section reviews*/
+
+/* start section Blogs*/
+.main-meal{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.meal{
+    width: 410px;
+    height: 526px;
+    background-color: rgba(16, 20, 24, 0.7);
+    color: rgba(255, 255, 252, 1);
+    margin-bottom: 50px;
+}
+
+.meal h4{
+    padding: 30px 30px;
+    padding-bottom: 0;
+    font-size: 22px;
+}
+.meal p{
+    padding: 20px 0px;
+    padding-left: 30px;
+    padding-right: 70px;
+    font-size: 14px;
+}
+.meal button{
+    padding: 0;
+   padding-bottom: 5px;
+   margin-left: 30px;
+   margin-top: 30px;
+   border: none;
+   border-bottom: 2px solid rgba(255, 206, 109, 1);
+   font-size: 14px;
+}
+#vegetable{
+    padding-top: 40px;
+}
+/* end section Blogs*/
+
+/* start section contact*/
+.Contact{
+    height: 375px;
+    background-color: rgba(16, 20, 24, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(255, 255, 252, 1);
+    margin-top: 40px;
+}
+
+.Contact-1 :first-child{
+display: flex;
+align-items: center;
+padding-right: 10px;
+}
+.Contact-1 h4{
+    font-size: 24px;
+    color: rgba(255, 252, 204, 1);
+}
+.Contact-1 p{
+   width: 270px;
+   padding-left: 37px;
+   line-height: 25px;
+   padding-top: 20px;
+   padding-bottom: 25px; 
+   font-size: 16px; 
+}
+.icon{
+    padding-left: 37px;
+    display: flex;
+}
+.icon :first-child{
+    padding-right: 0;
+}
+.icon img{
+    margin-right: 15px;
+}
+.Contact-2 h3{
+    font-size: 20;
+}
+.Contact-2 ul{
+    display: block;
+    padding-left: 0;
+    padding-top: 20px;
+}
+.Contact-2 li{
+    list-style: circle;
+}
+
+.Contact-3 h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+  
+}
+.Contact-3 div {
+    display: flex;
+    align-items: center;
+}
+.Contact-3 img{
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+.Contact-3 p{
+    word-spacing: 5px;
+    width: 260px;
+    line-height: 25px;
+}
+/* end section contact*/
+
+/* start section Form*/
+.Forms{
+    display: flex;
+    color: #FFFFCC;
+    justify-content: center;
+    padding: 20px 0;
+    align-items: center;
+}
+.Emails{
+    display: flex;
+    align-items: center;
+}
+.Emails h3{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.Forms input{
+    width: 407px;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 204, 1);
+    margin-left: 100px;
+    padding-left: 25px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+}
+.Forms button{
+    width: 207px;
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 204, 1);
+    margin-left: 20px;
+    font-size: 20px;
+}
+/* end section Form*/
+
+/* start section Footer*/
+.footer{
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: rgba(16, 20, 24, 0.7);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer p{
+    padding-bottom: 10px;
+
+}
+/* end section Footer*/
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
