@@ -455,6 +455,7 @@ a{
     display: flex;
     justify-content: space-around;
     padding-bottom: 40px;
+    overflow: hidden;
 }
 .comment-1{
     width: 900px;
